@@ -10,7 +10,9 @@ int main ()
 		float avg;	
 	}s;
 
-	scanf("%d",s.mat);
+s.mat=25;
+	s.phy=18;
+	s.che=28;
 s.total=s.mat+s.phy+s.che;
 s.avg=s.total/3.0;
 
