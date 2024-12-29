@@ -4,15 +4,15 @@ int main ()
 	struct score
 	{
 		unsigned int mat:5;
-		int phy:5;
-		int che:5;
-        int total:7;
+		unsigned int phy:5;
+		unsigned int che:5;
+        	unsigned int total:7;
 		float avg;	
 	}s;
 
 s.mat=25;
-	s.phy=18;
-	s.che=28;
+s.phy=18;
+s.che=28;
 s.total=s.mat+s.phy+s.che;
 s.avg=s.total/3.0;
 
