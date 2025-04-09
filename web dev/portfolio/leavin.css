@@ -1,0 +1,45 @@
+body{
+    color: white;
+    overflow-x: hidden;
+    background-color: black;
+   
+}
+
+nav {
+    justify-content: center;
+    left: 33em;
+    display: inline-flex;
+    width: 100%;
+    top: 1em;
+    position: relative;
+
+}
+div.content{
+    font-family: sans-serif;
+    font-size: 1.9em;
+    position: relative;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(250, 0, 0);
+    margin-right: .2rem;
+   
+   
+    padding: .5em;
+   margin-bottom: 1rem;
+    font-size: 2rem;
+    background-color:transparent;
+
+    
+}
+nav div{
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out;
+   
+}
+
+nav div:hover{
+
+    border-bottom: 2px solid red;
+
+}
