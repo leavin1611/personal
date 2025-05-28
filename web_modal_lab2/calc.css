@@ -1,0 +1,99 @@
+
+.calc{color: aliceblue;
+    max-width: 300px;
+    width: 100%;
+    position: relative;
+    left: 40%;
+    margin-top: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.719);
+    background-image: linear-gradient(45deg,#123,#345,#678);
+    border: 1px solid black;
+   
+    animation: pop 2s ease-in-out forwards;
+}
+@keyframes pop{
+    0%{
+    top: 10%;
+    opacity: 0;
+    }
+    50%{
+        top:10%;  
+    }
+    65%{
+        opacity: 0;
+    }
+    75%{
+        border-radius: 50%;
+    }
+    100%{
+        border-radius: 15px;
+        opacity: 1;
+        margin-top: 15%;
+    }
+}
+.head{
+    text-align: center;
+}
+.quantity{
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    height: 25px;
+}
+.quan{
+    height: 20px;
+position: absolute;
+right: 0%;
+border: 1px solid black;
+border-radius: 5px;
+outline: none;
+
+}
+.price{
+    position: relative;
+    height: 25px;
+    max-width: 300px;
+    width: 100%;
+}
+.price1{
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    height: 20px;
+position: absolute;
+right: 0%;
+}
+.result{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   max-width: 300px;
+   width: 100%;
+    margin-top: 1rem;
+}
+.result p{
+    margin-left: 20px;
+}
+.btn{
+    
+    height: 30px;
+    margin-top: 3.5%;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: darkorange;
+}
+.btn:hover{
+    background-color:rgb(255, 191, 117) ;
+    transition: .2s ease-in;
+}
+.price1:hover{
+    background-color:rgb(255, 228, 178) ;
+    transition: .7s ease-in;
+}
+.quan:hover{
+    background-color:rgb(255, 228, 178) ;
+    transition: .7s ease-in;
+}
